@@ -1,0 +1,8 @@
+1. 关于empty()和isset() ,见http://www.cnblogs.com/qiantuwuliang/archive/2009/11/09/1599047.html
+   总结：empty() 判断一个变量是否为“空”，isset() 判断一个变量是否已经设置。
+   注意： 当一个变量值等于0时，empty()也会成立（True），当成空；而isset()会当成是否设置。
+          当要 判断一个变量是否已经声明的时候 可以使用 isset 函数
+	  当要 判断一个变量是否已经赋予数据且不为空 可以用 empty 函数
+          当要 判断 一个变量 存在且不为空 先isset 函数 再用 empty 函数
+
+2. unset(),释放一个变量。
